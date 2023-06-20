@@ -5,14 +5,14 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 const Navbar = () => {
     return (
         <div>
-            <nav className="bg-[#012842] text-[15px] p-0 z-[997] fixed w-full top-0 left-0 border-b border-gray-200 dark:border-red-600 flex justify-between items-center">
+            <nav className="bg-[#012842] text-[15px] p-2 z-[997] fixed w-full top-0 left-0 border-b border-gray-200 dark:border-red-600 flex justify-between items-center">
                 {/* logo  */}
                 <div className="ml-[200px]">
                         <img src="https://mayfairgardens.in/images/mayfair-virar-gardens-the-promenade-logo.webp" width={300} height={30} alt="Mayfair Logo" />
                 </div>
                 {/* nav links */}
                 <div className="mr-[200px] flex justify-center items-center">
-                    <ul className="text-white border-2 border-red-500 flex justify-center items-center">
+                    <ul className="text-white mr-2 flex justify-center items-center">
                         <li className="uppercase px-2">Overview</li>
                         <li className="uppercase px-2">Floor Plans</li>
                         <li className="uppercase px-2">Gallery</li>
