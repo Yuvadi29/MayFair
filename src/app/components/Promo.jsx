@@ -1,8 +1,9 @@
 "use client";
-import React from 'react';
-import '@coreui/coreui/dist/css/coreui.min.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import '@coreui/coreui/dist/css/coreui.min.css';
 import { CCarousel, CCarouselItem, CImage } from '@coreui/react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Image from 'next/image';
+import React from 'react';
 
 const Promo = () => {
   return (
@@ -25,13 +26,13 @@ const Promo = () => {
         <div className="pt-[40px] flex flex-col justify-center items-center">
           {/* top seciton */}
           <div className="flex flex-col justify-center items-center">
-            <img src="https://mayfairgardens.in/images/mayfair-virar-gardens-the-promenade-border-black.webp" alt="image" className='w-[105px]' />
+            <Image src="https://mayfairgardens.in/images/mayfair-virar-gardens-the-promenade-border-black.webp" alt="image" width={500} height={500} className='w-[105px]' />
             <div className="flex flex-col justify-center items-center">
               <div className='text-[#012842] text-center text-[2.5rem]'>
                 MAYFAIR VIRAR GARDENS THE PROMENADE
               </div>
               <div className="text-[17px]  w-[1110px] text-center">
-                New York has 5th Avenue. London has Bond Street. Delhi has Connaught Palace. Mumbai has Kalaghoda. Its's time, Virar has it's own landmark. Presenting, The Promenade at Mayfair Gardens Virar. BOOK you home TODAY.
+                New York has 5th Avenue. London has Bond Street. Delhi has Connaught Palace. Mumbai has Kalaghoda. Its&apos;s time, Virar has it&apos;s own landmark. Presenting, The Promenade at Mayfair Gardens Virar. BOOK you home TODAY.
               </div>
             </div>
           </div>
