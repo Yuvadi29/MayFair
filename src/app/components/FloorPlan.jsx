@@ -44,8 +44,8 @@ const FlooPlan = () => {
                     </div>
 
                     <div className="w-full float-left p-0">
-                        <div className="text-center mt-[30px]">
-                            <button className='text-[17px] text-white bg-[#001f33] inline-block relative pt-[13px] pr-[28px] pb-[13px] pl-[28px] border-1 border-white mx-[5px] my-[5px]'>Avail Sample Flat Video</button>
+                        <div className="text-center mt-[40px] ">
+                            <div className='text-[17px] text-white bg-[#001f33] inline-block relative pt-[13px] pr-[28px] pb-[13px] pl-[28px] border-1 border-white mx-[5px] my-[5px]'>Avail Sample Flat Video</div>
                         </div>
                     </div>
 
