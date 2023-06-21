@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Promo from './components/Promo'
 import Promo2 from './components/Promo2'
@@ -13,6 +14,7 @@ const page = () => {
       <Promo2 />
       <Promo3 />
       <Promo4 />
+      <Footer />
     </div>
   )
 }
