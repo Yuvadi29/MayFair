@@ -7,6 +7,7 @@ import Promo4 from './components/Promo4'
 import Promo5 from './components/Promo5'
 import Promo6 from './components/Promo6'
 import Promo7 from './components/Promo7'
+import FloorPlan from './components/FloorPlan'
 
 const page = () => {
   return (
@@ -19,6 +20,7 @@ const page = () => {
       <Promo5 />
       <Promo6 />
       <Promo7 />
+      <FloorPlan />
     </div>
   )
 }
