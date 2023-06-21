@@ -55,15 +55,15 @@ const Promo = () => {
           </div>
           {/* text  */}
           <div className="mb-4 text-[17px]  w-[1110px] text-center">
-          For Site Visit, Appointment Compulsory. Call Us On +91 9860949793 For Brochure, Floor Plan, Location, Appointment, Site Visit, Price, Address, Sample Flat Video, Reviews.
+            For Site Visit, Appointment Compulsory. Call Us On +91 9860949793 For Brochure, Floor Plan, Location, Appointment, Site Visit, Price, Address, Sample Flat Video, Reviews.
           </div>
           {/* button  */}
           <div className="mb-4 flex flex-col justify-center items-center">
-              <div className="bg-[#012842] ">
-                <div className="text-[17px] bg-[#012842] border-1 border-white text-white px-4 py-2 mx-[5px] my-[5px]">
-                  Avial Digital Brochure
-                </div>
+            <div className="bg-[#012842] ">
+              <div className="text-[17px] bg-[#012842] border-1 border-white text-white px-4 py-2 mx-[5px] my-[5px]">
+                Avial Digital Brochure
               </div>
+            </div>
           </div>
         </div>
       </div>
