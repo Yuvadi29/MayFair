@@ -1,4 +1,5 @@
 import React from 'react'
+import Copywrite from './components/Copywrite'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Promo from './components/Promo'
@@ -15,6 +16,7 @@ const page = () => {
       <Promo3 />
       <Promo4 />
       <Footer />
+      <Copywrite />
     </div>
   )
 }
